@@ -1,0 +1,154 @@
+program project1;
+
+uses crt,Graph;
+
+type
+kolko = record
+    posX:integer;
+    posY:integer;
+    del:integer;
+end;
+
+type
+prostokat = record
+    posX:integer;
+    posY:integer;
+    del:integer;
+end;
+
+function readInput ():char;
+var znak:char;
+begin
+  readln(znak);
+  {clrscr;}
+  readInput:=znak;
+end;
+
+function update (znak:char;ppolozenie:integer):integer;
+var przesuniecie:integer;
+    p:integer;
+    pol:integer;
+begin
+  pol:= ppolozenie;
+  if (znak='a') or (znak='d') then
+  begin
+       {ClearDevice;}
+  end;
+  przesuniecie:=10;
+  if znak='a' then
+  begin
+    ppolozenie:=ppolozenie-przesuniecie;
+    writeln('p = ',ppolozenie);
+    {rectangle(p, 450,p+60, 460);}
+  end;
+  if znak='d' then
+  begin
+    p:=ppolozenie+przesuniecie;
+    writeln('p = ',p);
+    {rectangle(p, 450,p+60, 460);}
+  end;
+end;
+
+
+{procedure initialize;
+begin
+     Repeat
+           readInput;
+           update;
+       draw;
+       delay(20);
+     Until gameEnd=true;
+end; }
+
+var i,j,a,x: integer;
+    ster,tryb: smallint;
+    tab: array[0..10] of string;
+    los: array[0..5] of integer;
+    gameEnd:integer;
+    polozenie:integer;
+    ppolozenie:^integer;
+
+
+begin
+    ster:=VGA;  tryb:=VGAHi;
+    gameEnd:=100;
+   { (InitGraph(ster, tryb, 'C:\Programs\lazarus\fpc\2.6.4\units\i386-win32\graph\graph.o' );}
+    polozenie:=300;
+    {closegraph;    }
+    ppolozenie :=@polozenie;
+    writeln('ppol: ',ppolozenie^);
+
+    {rectangle(polozenie, 450, polozenie+60, 460);}
+    Repeat
+       writeln('pol = ',ppolozenie^);
+       //readInput;
+       update(readInput,ppolozenie^);
+       //draw;
+       //delay(20);
+       gameEnd:=gameEnd-1;
+    Until gameEnd=0;
+    readln;
+
+
+
+    {
+    clrscr;
+    randomize;
+    i:=0;
+    j:=0;
+    a:=0;
+    x:=0;
+    while i<10 do
+    begin
+         tab[i]:=' . ';
+         i:=i+1;
+    end;
+
+
+    while x<10 do
+    begin
+          while a<5 do
+          begin
+             los[a]:=random(10)+1;
+             writeln(los[a]);
+             tab[los[a]]:=' x ';
+             a:=a+1
+          end;
+          while j<10 do
+          begin
+                while i<10 do
+                begin
+                     write(tab[i]);
+                     i:=i+1;
+                end;
+                {if ((x=0) AND (tab[a]=' x ')) then
+                begin }
+                a:=0;
+                while a<5 do
+                begin
+                      if x=j+1 then
+                      begin
+                         tab[los[a]]:=' x ';
+                      end
+                      else
+                      begin
+                         tab[los[a]]:=' . ';
+                      end;
+                      a:=a+1;
+                end;
+
+                {end; }
+                writeln;
+                j:=j+1;
+                i:=0;
+          end;
+          x:=x+1;
+          i:=0;
+          j:=0;
+          readln;
+    end;
+   }
+
+
+   readln;
+end.

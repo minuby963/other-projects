@@ -1,0 +1,23 @@
+.menu{
+	float:left;
+	border: 1px solid #555555;
+}
+.container{
+	float: left;
+	border: 1px solid #AAAAAA;
+}
+.products{
+	border: 1px solid #000000;
+}
+.product{
+	float: left;
+}
+.image{
+	float: left;
+}
+.nameAndPrice{
+	min-height: 100px;
+}
+.clear{
+	clear: both;
+}

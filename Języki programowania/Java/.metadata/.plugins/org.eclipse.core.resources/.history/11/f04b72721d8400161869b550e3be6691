@@ -1,0 +1,23 @@
+
+public class Command {
+	private Catalog dir;
+	
+	public Command(Catalog _dir){
+		dir=_dir;
+	}
+	
+	public void execute(String command){
+		String[] commandParts = command.split(" ");
+		System.out.println(commandParts[0]);
+		
+		String mainCommand = commandParts[0].substring(1);
+		System.out.println(mainCommand);
+	}
+	
+	public void show(String name){
+		if(name.equals("files")){
+			dir.showFiles();
+		}
+	}
+
+}

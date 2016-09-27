@@ -1,0 +1,66 @@
+program project1;
+
+type
+  listPtr=^list;
+  list=record
+    imie:string;
+    nazwisko:string;
+    pkt:integer;
+    next:listPtr;
+  end;
+
+
+var poczatek:listPtr;
+
+
+procedure pushFront ();
+var tmp:listPtr;
+begin
+  new(tmp);
+  writeln('podaj imie');
+  readln(tmp^.imie);
+  {writeln('podaj nazwisko');
+  readln(tmp^.nazwisko);
+  writeln('podaj ilosc punktow');
+  readln(tmp^.pkt);}
+  tmp^.next:=poczatek;
+  poczatek:=tmp;
+end;
+
+
+procedure usun (poczatek:listPtr);
+var tmp,tmp2:listPtr;
+begin
+  tmp2:=poczatek^.next;
+  while(tmp2<>nil) do
+  begin
+    tmp2:=tmp2^.next;
+  end;
+   tmp:=tmp2^.next;
+   dispose(tmp2);
+   poczatek^.next:=tmp;
+
+end;
+
+procedure wyswietl(poczatek:listPtr);
+var tmp:listPtr;
+begin
+   tmp:=poczatek;
+   while (tmp<>nil) do
+   begin
+     writeln('imie: ',tmp^.imie);
+     {writeln('nazwisko: ',tmp^.nazwisko);
+     writeln('ilosc punktow: ',tmp^.pkt);}
+     tmp:=tmp^.next;
+   end;
+end;
+
+begin
+   pushFront ();
+   pushFront ();
+   pushFront ();
+   pushFront ();
+   {usun (poczatek);}
+   wyswietl(poczatek);
+   readln;
+end.

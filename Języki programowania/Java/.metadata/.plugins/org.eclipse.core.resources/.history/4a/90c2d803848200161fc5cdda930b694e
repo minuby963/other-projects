@@ -1,0 +1,65 @@
+import java.io.File;
+import java.io.IOException;
+
+
+public class Catalog{
+	File[] fileList;
+	File[] catList;
+	File[] fList;
+	
+	public Catalog(String path) throws IOException{
+		
+		File dir = new File(path);		
+		try{	
+			if( !dir.isDirectory() ){
+				throw new IOException("File should be directory.");	
+			}
+			else{
+				int i=0;
+				int j=0;
+				for(File f : dir.listFiles()){
+					if(f.isDirectory())
+						i++;
+					else
+						j++;
+				}
+				
+				if(i>0)
+					catList = new File[i];
+				if(j>0)
+					fileList = new File[j];
+				i=0;
+				j=0;
+				for(File f : dir.listFiles()){
+					if(f.isDirectory()){
+						catList[i] = f;
+						i++;
+					}
+					else{
+						fileList[j] = f;
+						j++;
+					}
+				}
+				
+			}
+		}
+		catch(IOException e){
+			System.out.println(e);
+		}
+			
+	}
+	
+	public void showFiles(){
+		
+		for(File file : fileList){
+            System.out.println(file.getName());
+		}
+	}
+	
+	public void showCategories(){
+		
+		for(File cat : catList){
+            System.out.println(cat.getName());
+		}
+	}
+}

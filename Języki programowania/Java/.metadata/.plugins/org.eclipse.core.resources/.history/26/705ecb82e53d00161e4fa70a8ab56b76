@@ -1,0 +1,11 @@
+
+public class Dopisywanie {
+
+	public static void main(String[] args) {
+		String plik1 = "dane1.txt";
+		OperacjaNaPliku opPlik1 = new OperacjaNaPliku();
+		
+		opPlik1.UtworzPlik(plik1);
+	}
+
+}

@@ -1,0 +1,20 @@
+import java.io.IOException;
+
+public class Dopisywanie {
+
+	public static void main(String[] args) {
+		String plik1 = "dane1.txt";
+		boolean czyDopisac = true;
+		String tekst = "aaa";
+		OperacjaNaPliku opPlik1 = new OperacjaNaPliku(plik1,czyDopisac);
+		
+		opPlik1.UtworzPlik();
+		try{
+			opPlik1.DopiszDoPliku(tekst);
+		}
+		catch(IOException e){
+			System.out.println("IOEception. ");
+		}
+	}
+
+}

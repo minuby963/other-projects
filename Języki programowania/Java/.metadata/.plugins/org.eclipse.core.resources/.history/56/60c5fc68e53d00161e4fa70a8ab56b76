@@ -1,0 +1,32 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class OperacjaNaPliku {
+	
+	String plik1;
+	
+	
+	void UtworzPlik(){
+		
+		File stPlik1 = new File(plik1);
+		try{
+			if(!stPlik1.exists()){
+				stPlik1.createNewFile();
+			}		
+		}
+		catch(IOException e){
+			System.out.println("B³¹d podczas tworzenia pliku. ");
+		}
+		
+	}
+	
+	void DopiszDoPliku() throws IOException {
+		FileWriter dodajDoPliku = new FileWriter(plik1,true);
+		PrintWriter dopisz1 = new PrintWriter(dodajDoPliku);
+		dopisz1.println("asfdsuef sdfvfd");
+		dopisz1.close();
+	}
+
+}

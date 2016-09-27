@@ -1,0 +1,298 @@
+body
+{
+	background-color: #DDDDDD;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	margin: 0px 0px 100px 0px;
+}
+.nav-logo
+{
+	font-size: 26px;
+	min-height: 100px;
+	text-align: center;
+	border: 1px solid #C9C9D9;
+
+}
+.container
+{
+	background-color: #F9F9F9;
+	border: 1px solid #BBBBCC;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 1198px;
+	border-radius: 2px;
+	box-shadow:0 0 20px #AAAABB;
+}
+.logo
+{
+	font-size: 30px;
+	float: left;
+	padding: 20px 0px 20px 40px;
+	min-width: 10px;
+	font-weight: 700;
+	color: #000000;
+	min-height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.logo-name
+{
+	border-right: 1px dotted #BBBBCC;
+	padding: 20px 20px 20px 0px;
+	min-width: 270px;
+}
+.nav
+{
+	float: left;
+}
+.subnav
+{
+	float: left;
+	padding: 20px;
+	min-width: 160px;
+	min-height: 40px;
+	border-right: 1px dotted #BBBBCC;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+    -moz-transition-duration: 0.2s;
+    -moz-transition-timing-function: ease-in;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-in;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+
+}
+.subnav-4
+{
+	border-right: 0;
+}
+
+a:link
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.subnav:hover
+{	
+	background-color: #DDDDDD;
+	color: #000000;
+	text-decoration: none;
+}
+
+.content
+{
+	/*border: 1px solid #000000;*/
+	min-height: 400px;
+}
+.front-image
+{
+	border: 1px solid #C9C9D9;
+	background-color: #C9C9D9;
+}
+
+img
+{
+	margin: -3px 0px -4px 0px;
+}
+
+
+/*index.html*/
+.text
+{
+	padding: 60px 140px 100px 140px;
+	border: 1px solid #C9C9D9;
+	font-size: 20px;
+	text-align: justify; 
+}
+.title
+{
+	text-align: center;
+	width: 100%;
+	border-bottom: 2px dotted #C9C9D9;
+}
+.text-title
+{
+	font-size: 24px;
+}
+
+
+/*oferta.html*/
+.oferta
+{
+	border: 1px solid #C9C9D9; 
+	padding: 10px;
+}
+.piston
+{
+	border: 1px solid #C9C9D9;
+	background-color: #F7F7F7;
+	padding: 5px;
+	margin: 40px;
+	border-radius: 2px;
+	box-shadow: 0 0 10px #DDDDDD;
+}
+.piston-img
+{
+	background-color: #FFFFFF;
+	padding: 2px;
+	float: left;
+	box-shadow: 0 0 15px #CCCCDD;
+}
+.piston-img > img
+{
+	padding: 3px;
+	display: block;
+	width: 300px;
+}
+
+.piston-text
+{
+	padding: 20px 20px 20px 60px;
+	float: left;
+	width: 690px;
+}
+.piston-title
+{
+	border-bottom: 2px dotted #C9C9D9; 
+	padding: 0 20px 20px 20px;
+}
+.oferta-title
+{
+	margin: 40px;
+	font-size: 36px;
+	width: 1095px;
+	padding: 10px 0 40px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*kontakt.html*/
+.kontakt-information
+{
+	min-width: 600px;
+	float: left;
+	padding: 100px 50px 100px 100px;
+	font-size: 22px;
+}
+
+.kontakt-adress
+{
+	min-width: 300px;
+	float: left;
+	padding: 100px 50px 100px 30px !important;
+	font-size: 22px;
+	line-height: 30px
+}
+.kontakt-information-title
+{
+	font-size: 24px;
+	padding: 0px 0px 30px 0px;
+
+}
+.kontakt-adress-title
+{
+	font-size: 24px;
+	padding: 0px 0px 30px 0px;	
+}
+
+table
+{
+	width: 550px;	
+	padding: 27px;
+}
+.dojazd-adress-content
+{
+	padding-left: 30px;
+}
+
+
+
+
+
+/*dojazd.html*/
+.google-maps
+{
+	float: left;
+}
+iframe
+{
+	border: 1px solid #C9C9D9;
+}
+.adress
+{
+	float: left;
+	padding: 100px 60px 50px 50px;
+	font-size: 22px;
+}
+.dojazd
+{
+	padding: 60px 60px 60px 40px;
+	border: 1px solid #C9C9D9;
+	font-size: 20px;
+}
+.to-Kontakt
+{
+	min-width: 330px;
+	border-top: 2px dotted #C9C9D9;
+	padding: 15px 5px 5px 0;
+	font-size: 13px;
+	color: #595969;
+}
+.to-Kontakt:hover
+{
+	color: #000000;
+}
+
+
+
+
+
+
+.clear
+{
+	clear: both;
+}
+.footer
+{
+	color: #555555;
+	padding: 10px;
+	border: 1px solid #C9C9D9;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+
+
+/*cba.pl*/
+.cbalink
+{
+       color: #DDDDDD !important;
+}
+
+.cbalink a
+{
+        color: #DDDDDD !important;
+}	

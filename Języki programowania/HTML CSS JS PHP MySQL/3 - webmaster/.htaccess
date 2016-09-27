@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule programista-webowy-portfolio index.html
+RewriteRule programista-stron-internetowych o_mnie.html
+RewriteRule oferta-html-php-css-javascript oferuje.html
+RewriteRule cv-curriculum-vitae-programista-informatyk cv.html
+RewriteRule programista-kontakt kontakt.html

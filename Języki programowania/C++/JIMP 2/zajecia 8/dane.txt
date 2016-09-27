@@ -1,0 +1,33 @@
+1	name	nazwa , nazwisko	nejm
+2	very	bardzo	weri
+3	to	do , ku , na, po, za, dla, przy, aby, ¿eby	tu
+4	through	przez	fru
+5	and	i	end
+6	just	tylko , w³aœnie	d¿ast
+8	form	forma , tworzyæ	form
+9	in	w	yn
+10	sentence	zdanie	senstens
+11	is	jest   w 3 osobie liczby pojedynczej	ys
+12	it	to	yt
+13	great	swietnie	grejt
+14	think	myslec , uwa¿aæ	fynk
+15	you	ty	ju
+16	say	mowic , powiedzieæ	sej
+17	that	ze , ten ,tamten , to , który	wet
+18	help	pomoc , pomagaæ	help
+19	he	on	hi
+20	low	niski , cichy, nisko, cicho, przygnêbiony ?	lo³
+21	was	byc  w czasie przesz³ym w 1. i 3. osobie liczby pojedynczej	³os
+22	line	linia , lina, kolejka, rz¹d	lajn
+23	for	dla , do , po	for
+25	on	na	on
+26	turn	skrecic , zakrêt, obrót	tern
+27	are	sa ,  jesteœ	ar
+28	cause	przyczyna , powód, pot: poniewa¿	koz
+29	with	z	³yf
+30	much	duzo	macz
+31	as	kiedy , gdy ,poniewa¿, tak jak	ez
+32	mean	znaczyc , sk¹py, z³oœliwy, œredni	min
+33	i	ja	aj
+34	before	przed	bifor
+35	his	jego

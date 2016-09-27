@@ -1,0 +1,6 @@
+--==[ Kurs C++ | http://cpp0x.pl ]==--
+Obecnie uczysz sie obslugi plikow. Link do czytanego rozdzialu:
+http://cpp0x.pl/kursy/Kurs-C++/Poziom-4/Wczytywanie-tekstu-z-pliku/355
+Udalo Ci sie odczytac plik?
+
+Wykonaj teraz prace domowa ze wspomnianego rozdzialu! :)

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="Snake.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos Y="768"/>
+        <FoldState Value=" T3F0K1 pl7lV0T6 piaja09]IkPkc0:2]IYkJ0B]Rj1jQ0h2 T0+10{OB"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="589" Column="38" TopLine="582"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="617" Column="61" TopLine="600"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="518" Column="68" TopLine="509"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="512" Column="41" TopLine="496"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="516" Column="62" TopLine="502"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="520" Column="10" TopLine="502"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="628" Column="45" TopLine="613"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="343" Column="9" TopLine="325"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="380" Column="32" TopLine="367"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="382" Column="9" TopLine="371"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="383" Column="9" TopLine="369"/>
+      </Position11>
+      <Position12>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="551" Column="3" TopLine="5"/>
+      </Position12>
+      <Position13>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="549" Column="11" TopLine="519"/>
+      </Position13>
+      <Position14>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="262" Column="14" TopLine="243"/>
+      </Position14>
+      <Position15>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="255" Column="38" TopLine="243"/>
+      </Position15>
+      <Position16>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="264" Column="27" TopLine="243"/>
+      </Position16>
+      <Position17>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="268" Column="27" TopLine="250"/>
+      </Position17>
+      <Position18>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="685" Column="71" TopLine="669"/>
+      </Position18>
+      <Position19>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="703" Column="52" TopLine="693"/>
+      </Position19>
+      <Position20>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="606" Column="5" TopLine="591"/>
+      </Position20>
+      <Position21>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="305" Column="9" TopLine="288"/>
+      </Position21>
+      <Position22>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="289" Column="17" TopLine="273"/>
+      </Position22>
+      <Position23>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="333" TopLine="314"/>
+      </Position23>
+      <Position24>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="550" Column="39" TopLine="507"/>
+      </Position24>
+      <Position25>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="302" Column="72" TopLine="218"/>
+      </Position25>
+      <Position26>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="295" Column="45" TopLine="273"/>
+      </Position26>
+      <Position27>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="395" Column="207" TopLine="375"/>
+      </Position27>
+      <Position28>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="615" Column="21" TopLine="582"/>
+      </Position28>
+      <Position29>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="873" Column="59" TopLine="862"/>
+      </Position29>
+      <Position30>
+        <Filename Value="Snake.pas"/>
+        <Caret Line="409" Column="216" TopLine="399"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="C:\lazarus\PasSFML-master\Source\SfmlWindow.pas"/>
+        <Line Value="49"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,31 @@
+body
+{
+	background-color: gray;
+	font-famili: Verdana;
+	font-size: 20px;
+	color: white;
+}
+
+h3
+{
+	font-size: 32px;
+	
+}
+
+/*nieodwiedzony link*/
+a:link
+{
+	
+}
+
+/*odwiedzony link*/
+a:visited
+{
+	
+}
+
+/*link po najechaniu*/
+a:hover
+{
+	
+}

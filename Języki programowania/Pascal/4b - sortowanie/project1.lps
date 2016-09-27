@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="project1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="215"/>
+        <CursorPos X="28" Y="221"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\..\..\..\AppData\Local\Temp\Temp1_small_game_prosta_mala_gra.zip\MINIGAM2.PAS"/>
+        <UnitName Value="small_game"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="130"/>
+        <CursorPos X="22" Y="14"/>
+        <UsageCount Value="9"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\4 - sortowanie\Project1.pas"/>
+        <UnitName Value="project1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="215"/>
+        <CursorPos X="5" Y="247"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="..\4 - sortowanie\Project1.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\4 - sortowanie\Project1.pas"/>
+        <Caret Line="222" Column="18" TopLine="215"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

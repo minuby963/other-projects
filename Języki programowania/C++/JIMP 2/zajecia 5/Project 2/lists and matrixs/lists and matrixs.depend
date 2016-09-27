@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1460297132 source:c:\users\daniel\desktop\dropbox\jêzyki programowania\c++\jimp 2\zajecia 5\project 2\lists and matrixs\matrix.cpp
+	<iostream>
+	<stdio.h>
+
+1460296621 source:c:\users\daniel\desktop\dropbox\jêzyki programowania\c++\jimp 2\zajecia 5\project 2\lists and matrixs\list.cpp
+	<iostream>
+	<stdio.h>
+	"matrix.cpp"
+
+1460297132 c:\users\daniel\desktop\dropbox\jêzyki programowania\c++\jimp 2\zajecia 5\project 2\lists and matrixs\matrix.cpp
+	<iostream>
+	<stdio.h>
+
+1460296555 c:\users\daniel\desktop\dropbox\jêzyki programowania\c++\jimp 2\zajecia 5\project 2\lists and matrixs\list.cpp
+	<iostream>
+	<stdio.h>
+	"matrix.cpp"
+
+1460325895 source:c:\users\daniel\desktop\dropbox\jêzyki programowania\c++\jimp 2\zajecia 5\project 2\lists and matrixs\main.cpp
+	<iostream>
+	<stdio.h>
+	"matrix.cpp"
+

@@ -1,0 +1,14 @@
+
+public class Command {
+	private Catalog cat;
+	
+	public Command(Catalog _cat){
+		cat = _cat;
+		
+	}
+	
+	public void execute(String command){
+		
+	}
+	
+}

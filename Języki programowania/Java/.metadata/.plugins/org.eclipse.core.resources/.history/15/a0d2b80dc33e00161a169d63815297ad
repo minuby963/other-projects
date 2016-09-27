@@ -1,0 +1,21 @@
+import java.awt.Point;
+
+import javax.swing.JFrame;
+
+public class Frame1 extends JFrame{
+	private Point p;
+
+	public Frame1(){
+		super("Hello World!");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		pack();
+		setVisible(true);
+		this.setSize(640, 600);
+		
+		p = null;
+		p.getX();
+		p.getY();
+		
+		this.setLocation(p);
+	}
+}

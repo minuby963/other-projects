@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8"/>
+		<title>menu</title>
+		<meta name="description" content="description"/>
+		<meta name="keywords" content="keywords"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<div class="logo"></div>
+			</div>
+			<div class="nav">
+				<ol>
+					<li><a href="#">A</a>
+						<ul>
+							<li><a href="#">A1</a></li>
+							<li><a href="#">A1</a></li>
+							<li><a href="#">A1</a></li>
+							<li><a href="#">A1</a></li>
+						</ul>
+					</li>
+					<li><a href="#">B</a>
+						<ul>
+							<li><a href="#">B1</a></li>
+							<li><a href="#">B1</a></li>
+							<li><a href="#">B1</a></li>
+						</ul>
+					</li>
+					<li style="border-right: 0;"><a href="#">C</a></li>
+					<li style="border-left: 1px solid #000000;"><a href="#" >D</a>
+						<ul>
+							<li><a href="#">C1</a></li>
+							<li><a href="#">C1</a></li>
+							<li><a href="#">C1</a></li>
+							<li><a href="#">C1</a></li>
+						</ul>
+					
+					</li>
+					<li><a href="#">E</a></li>
+				</ol>
+			
+			</div>
+			<div class="content"></div>
+			<div class="footer">&copy; Wszelkie prawa zastrzerzone.</div>
+		
+		</div>
+	
+	<script src="jquery-1.12.0.js"></script>
+	<script>
+		$(document).ready(function() {
+			var NavY = $('.nav').offset().top;
+			 
+			var stickyNav = function(){
+				var ScrollY = $(window).scrollTop();
+					  
+				if (ScrollY > NavY) { 
+					$('.nav').addClass('sticky');
+				} else {
+					$('.nav').removeClass('sticky'); 
+				}
+			};
+				 
+			stickyNav();
+				 
+			$(window).scroll(function() {
+				stickyNav();
+			});
+		});
+	</script>
+	
+
+	</body>
+<html>

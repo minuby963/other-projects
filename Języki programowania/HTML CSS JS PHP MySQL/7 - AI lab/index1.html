@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>AI LAB WEB - proj1</title>
+		<meta name="description" content="description"/>
+		<meta name="keywords" content="keywords"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		
+	</head>
+	<body>
+	
+		<div class="container">
+			<header>
+				//LOGO<h3>AI LAB DEVBLOG</h3>
+			</header>
+		</div>
+		<nav class="nav">
+			<div class="nav-main">
+				<ol>
+					<li><a href="#">nav1</a></li>
+					<li><a href="#">nav2</a></li>
+					<li><a href="#">nav2</a></li>
+				</ol>
+			</div>
+		</nav>
+		
+
+		<div class="container container-top">	
+			<div class="content">
+				<div class="post">
+					<h2>post1</h2>
+
+					Lorem ipsum dolor sit amet lorem. Curabitur lobortis velit. Praesent odio eget dui nunc, lobortis facilisis. Fusce nonummy commodo odio. Nullam laoreet ut, eleifend non, sagittis lacus tincidunt dictum ut, diam. In nec augue egestas consequat non, placerat vehicula sapien pede bibendum ac, eleifend justo augue a erat. In pharetra. Suspendisse fermentum facilisis. Fusce dui a purus et est pretium wisi. Phasellus sagittis lorem. In nonummy. Phasellus ut nibh.
+				</div>
+				<div class="post">
+					<h2>post2</h2>
+
+					Lorem ipsum dolor sit amet augue id nisl. Etiam nibh. Etiam aliquam purus. Fusce urna mattis ipsum primis in consequat wisi. Phasellus a venenatis blandit risus in faucibus eu, pulvinar velit. Suspendisse bibendum tempus. Pellentesque habitant morbi tristique senectus et malesuada elit semper auctor. Nam posuere. Quisque nec nisl. Nunc leo. Pellentesque pede nec nisl. Proin.
+				</div>
+				<div class="post">
+					<h2>post3</h2>
+
+					Lorem ipsum dolor sit amet nisl. Sed placerat id, imperdiet tincidunt, risus elit odio, a lacus. Vivamus elit est, ut massa. Nunc dolor nulla, at mauris orci, sollicitudin leo mollis nulla dictum tempus, fringilla faucibus, tortor orci ac nibh risus, dictum a, lacinia aliquet at, accumsan at, fermentum ut, urna. Nam ullamcorper ligula non.
+				</div>
+				<div class="post">
+					<h2>post4</h2>
+
+					Lorem ipsum dolor sit amet sapien faucibus quis, porttitor vel, dapibus quam eu tortor. Nullam justo a bibendum leo sodales eu, aliquam ac, augue. Fusce blandit egestas quis, porttitor tempus. Suspendisse vitae massa. Nulla augue turpis, molestie nec, turpis. Mauris nec adipiscing rutrum. Donec consectetuer ut, nonummy laoreet, est et malesuada et, nonummy velit libero facilisis libero. Etiam vulputate, enim ac.
+				</div>
+				<div class="post">
+					<h2>post5</h2>
+
+					Lorem ipsum dolor sit amet lorem. Curabitur lobortis velit. Praesent odio eget dui nunc, lobortis facilisis. Fusce nonummy commodo odio. Nullam laoreet ut, eleifend non, sagittis lacus tincidunt dictum ut, diam. In nec augue egestas consequat non, placerat vehicula sapien pede bibendum ac, eleifend justo augue a erat. In pharetra. Suspendisse fermentum facilisis. Fusce dui a purus et est pretium wisi. Phasellus sagittis lorem. In nonummy. Phasellus ut nibh.
+				</div>
+				<div class="post">
+					<h2>post6</h2>
+
+					Lorem ipsum dolor sit amet augue id nisl. Etiam nibh. Etiam aliquam purus. Fusce urna mattis ipsum primis in consequat wisi. Phasellus a venenatis blandit risus in faucibus eu, pulvinar velit. Suspendisse bibendum tempus. Pellentesque habitant morbi tristique senectus et malesuada elit semper auctor. Nam posuere. Quisque nec nisl. Nunc leo. Pellentesque pede nec nisl. Proin.
+				</div>
+				<div class="post">
+					<h2>post7</h2>
+
+					Lorem ipsum dolor sit amet nisl. Sed placerat id, imperdiet tincidunt, risus elit odio, a lacus. Vivamus elit est, ut massa. Nunc dolor nulla, at mauris orci, sollicitudin leo mollis nulla dictum tempus, fringilla faucibus, tortor orci ac nibh risus, dictum a, lacinia aliquet at, accumsan at, fermentum ut, urna. Nam ullamcorper ligula non.
+				</div>
+				<div class="post">
+					<h2>post8</h2>
+
+					Lorem ipsum dolor sit amet sapien faucibus quis, porttitor vel, dapibus quam eu tortor. Nullam justo a bibendum leo sodales eu, aliquam ac, augue. Fusce blandit egestas quis, porttitor tempus. Suspendisse vitae massa. Nulla augue turpis, molestie nec, turpis. Mauris nec adipiscing rutrum. Donec consectetuer ut, nonummy laoreet, est et malesuada et, nonummy velit libero facilisis libero. Etiam vulputate, enim ac.
+				</div>
+			</div>
+			<div class="fence">
+				<div class="nav-right">
+					<ul>
+						<li><a href="#">post1</a></li>
+						<li><a href="#">post2</a></li>
+						<li><a href="#">post3</a></li>
+						<li><a href="#">post4</a></li>
+						<li><a href="#">post5</a></li>
+						<li><a href="#">post6</a></li>
+						<li><a href="#">post7</a></li>
+						<li><a href="#">post8</a></li>
+					</ul>
+				
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+			<div class="footer">Strona zaprojektowana i stworzona przez zespół AI LAB web <br/>&copy; AILab 2016 </div>
+		</div>
+		
+
+		<script src="jquery-1.12.0.js"></script>
+		<script>
+		$(document).ready(function() {
+			var NavY = $('.nav-right').offset().top;
+			 
+			var stickyNav = function(){
+				var ScrollY = $(window).scrollTop();
+					  
+				if (ScrollY > NavY) { 
+					$('.nav-right').addClass('sticky');
+				} else {
+					$('.nav-right').removeClass('sticky'); 
+				}
+			};
+				 
+			stickyNav();
+				 
+			$(window).scroll(function() {
+				stickyNav();
+			});
+		});
+	</script>
+		
+	</body>
+</html>
